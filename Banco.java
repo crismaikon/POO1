@@ -20,7 +20,7 @@ public class Banco {
 			}
 		}
 
-		throw new RuntimeException("Funcionario n„o encontrado: " + cpf);
+		throw new RuntimeException("Funcionario n√£o encontrado: " + cpf);
 	}
 
 	public void cadastrarAgencia(Agencia agencia) {
